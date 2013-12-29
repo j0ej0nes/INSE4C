@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	top:0;
+}
+
+section.header h1 
+{
+			text-align: center;
+			font-size: 30px;
+			padding-bottom: 1px;
+			padding-top: 1px;
+}
+
+nav  {
+	padding-left:20px;
+	padding-right:10px;
+	padding-top: 5px;
+	text-decoration: none;
+	background-color: #6699FF;
+	height: 80px;
+	text-align: center;
+}
+
+
+nav .noborder {
+	border-left: 0px;	
+}
+
+nav ul {
+	background: #fff;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding:  0px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul li:hover {
+	
+	font-weight:bold;
+}
+nav ul li:hover a {
+	color: black;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	display: block; padding: 10px 15px;
+	color: #000000 ; text-decoration: none;
+}
+
+fieldset {
+    border-radius: 15px;
+    background: #;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    
+    border: 1px groove threedface;
+}
+
+legend {
+    white-space: normal; 
+    width: 100%;
+    *margin-left: -7px;
+}
+legend span {
+    display:block;
+    width: 100%;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 140px;
+    text-align: right;
+}
+
+
+.reg{
+	display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+	margin-left: 190px;
+	}
+
