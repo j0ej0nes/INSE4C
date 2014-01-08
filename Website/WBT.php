@@ -29,7 +29,7 @@
 <INPUT TYPE = "Submit" Name = "Submit3" VALUE = "Submit">
 </p>
 <?php
-include("WBTheader.php")
+include("header.php")
 
 //$x = $_POST['0'];
 //print
