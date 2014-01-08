@@ -90,3 +90,20 @@ label{
 	margin-left: 190px;
 	}
 
+p.level1{
+	padding-left: 200px;
+	padding-top: 200px;
+	position:absolute;
+	}
+	
+p.level2{
+	padding-left: 600px;
+	padding-top: 200px;
+	position:absolute;
+	}
+	
+p.level3{
+	padding-left: 1000px;
+	padding-top: 200px;
+	position:absolute;
+	}
